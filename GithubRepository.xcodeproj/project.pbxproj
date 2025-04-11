@@ -27,6 +27,7 @@
 		9D1467552DA9031F008EB6FD /* GithubRepository.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubRepository.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D14676B2DA90322008EB6FD /* GithubRepositoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubRepositoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D1467752DA90322008EB6FD /* GithubRepositoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubRepositoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1467B42DA90778008EB6FD /* GithubRepository.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = GithubRepository.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -88,6 +89,7 @@
 		9D14674C2DA9031E008EB6FD = {
 			isa = PBXGroup;
 			children = (
+				9D1467B42DA90778008EB6FD /* GithubRepository.xctestplan */,
 				9D1467572DA9031F008EB6FD /* GithubRepository */,
 				9D14676E2DA90322008EB6FD /* GithubRepositoryTests */,
 				9D1467782DA90322008EB6FD /* GithubRepositoryUITests */,

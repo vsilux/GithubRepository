@@ -6,3 +6,8 @@
 //
 
 import Foundation
+
+struct RepositoryResponse: Decodable {
+    var totalCount: Int
+    var items: [Repository]
+}

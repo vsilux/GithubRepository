@@ -13,16 +13,16 @@ final class RepositoryTests: XCTestCase {
 
     var sut: Repository!
 
-    func test_Repository_decoding() {
+    func test_Repository_decoding() throws {
         let pathToJson = Bundle(for: RepositoryTests.self).url(
             forResource: "sampleRepository",
             withExtension: "json"
         )!
-        let data = try! Data(contentsOf: pathToJson)
+        let data = try Data(contentsOf: pathToJson)
 
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
-        sut = try! decoder.decode(Repository.self, from: data)
+        sut = try decoder.decode(Repository.self, from: data)
         XCTAssertEqual(sut.id, 44_838_949)
         XCTAssertEqual(sut.fullName, "apple/swift")
         XCTAssertEqual(sut.stargazersCount, 61951)
